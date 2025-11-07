@@ -1,3 +1,4 @@
+```
 📘 Scenario #101: Pod Communication Failure Due to Network Policy Misconfiguration
 Category: Networking
 Environment: K8s v1.22, GKE
@@ -407,3 +408,4 @@ Lessons Learned: Plan service CIDR allocations carefully to avoid conflicts.
 How to Avoid:
 	• Use a dedicated service CIDR block to ensure that IPs are allocated without overlap.
 	• Automate IP range checks before service creation.
+```
