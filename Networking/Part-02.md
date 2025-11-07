@@ -1,3 +1,4 @@
+```
 📘 Scenario #126: High Latency in Inter-Namespace Communication
 Category: Networking
 Environment: K8s v1.22, AWS EKS
@@ -439,3 +440,4 @@ Lessons Learned: Avoid port conflicts by ensuring that services in different nam
 How to Avoid:
 	• Use unique port allocations across services in different namespaces.
 	• Implement service naming conventions that include port information.
+```
