@@ -1,3 +1,4 @@
+```
 📘 Scenario #151: NodePort Service Not Accessible Due to Firewall Rules
 Category: Networking
 Environment: K8s v1.23, Google GKE
@@ -426,3 +427,4 @@ Lessons Learned: Ensure that DNS services like CoreDNS are properly resourced an
 How to Avoid:
 	• Set up monitoring for DNS query rates and resource utilization.
 	• Scale CoreDNS horizontally to distribute the load.
+```
