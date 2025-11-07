@@ -1,3 +1,4 @@
+```
 📘 Scenario #326: Mount Volume Exceeded Timeout
 Category: Storage
 Environment: Kubernetes v1.26, Azure Disk CSI
@@ -441,3 +442,4 @@ Lessons Learned: Relying on device paths can break persistence.
 How to Avoid:
 	• Use device UUIDs or filesystem labels where supported.
 	• Restart CSI pods post-reboot events.
+```
