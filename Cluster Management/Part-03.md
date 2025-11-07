@@ -1,3 +1,4 @@
+```
 📘 Scenario #51: High Latency Due to Inefficient Ingress Controller Configuration
 Category: Cluster Management
 Environment: K8s v1.20, AWS EKS
@@ -422,3 +423,4 @@ Lessons Learned: Always retain previous image versions for safe rollbacks.
 How to Avoid:
 	• Implement retention policies for container images.
 	• Use CI/CD pipelines to tag and store images for future rollbacks.
+```
