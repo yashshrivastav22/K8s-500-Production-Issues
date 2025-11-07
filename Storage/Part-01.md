@@ -1,3 +1,4 @@
+```
 📘 Scenario #301: PVC Stuck in Terminating State After Node Crash
 Category: Storage
 Environment: Kubernetes v1.22, EBS CSI Driver on EKS
@@ -435,3 +436,4 @@ Lessons Learned: Shared volume access must be controlled explicitly.
 How to Avoid:
 	• Never assume coordination when using shared volumes.
 	• Use per-pod PVCs or job-level locking.
+```
