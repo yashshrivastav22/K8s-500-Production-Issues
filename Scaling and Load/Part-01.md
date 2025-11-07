@@ -1,3 +1,4 @@
+```
 📘 Scenario #401: HPA Didn't Scale Due to Missing Metrics Server
 Category: Scaling & Load
 Environment: Kubernetes v1.22, Minikube
@@ -405,3 +406,4 @@ Lessons Learned: Multi-AZ distribution requires proper spread constraints for ef
 How to Avoid:
 	• Use topologySpreadConstraints in services to ensure balanced load.
 	• Review multi-AZ architecture for traffic efficiency.
+```
