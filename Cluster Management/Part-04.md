@@ -1,3 +1,4 @@
+```
 📘 Scenario #76: Kubernetes Master Node Unresponsive After High Load
 Category: Cluster Management
 Environment: K8s v1.22, AWS EKS
@@ -422,3 +423,4 @@ Lessons Learned: Resource limits should be set based on actual workload requirem
 How to Avoid:
 	• Use monitoring tools to track resource usage and adjust limits as needed.
 	• Set up alerts for resource threshold breaches to avoid crashes.
+```
