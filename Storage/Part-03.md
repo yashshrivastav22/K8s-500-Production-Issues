@@ -1,3 +1,4 @@
+```
 📘 Scenario #351: VolumeMount Conflict Between Init and Main Containers
 Category: Storage
 Environment: Kubernetes v1.25, containerized database restore job
@@ -416,3 +417,4 @@ Lessons Learned: Implicit defaults can cause hidden behavior.
 How to Avoid:
 	• Always specify StorageClass explicitly in manifests.
 	• Audit your cluster’s default classes.
+```
