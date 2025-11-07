@@ -1,3 +1,4 @@
+```
 📘 Scenario #376: Ceph RBD Volume Mount Failure Due to Kernel Mismatch
 Category: Storage
 Environment: Kubernetes v1.21, Rook-Ceph
@@ -392,3 +393,4 @@ Lessons Learned: Cluster Autoscaler must be volume-aware.
 How to Avoid:
 	• Configure CA to respect mounted volumes.
 	• Tag volume-critical nodes as unschedulable before scale-down.
+```
