@@ -1,3 +1,4 @@
+```
 📘 Scenario #451: Inconsistent Scaling Due to Misconfigured Horizontal Pod Autoscaler
 Category: Scaling & Load
 Environment: Kubernetes v1.26, Azure AKS
@@ -419,3 +420,4 @@ Lessons Learned: Proper resource requests are critical for effective autoscaling
 How to Avoid:
 	• Continuously monitor and adjust resource requests based on actual usage patterns.
 	• Use autoscaling metrics that consider both resource usage and load.
+```
