@@ -1,3 +1,4 @@
+```
 📘 Scenario #276: JWT Token Replay Attack in Webhook Auth
 Category: Security
 Environment: Kubernetes v1.21, AKS
@@ -446,3 +447,4 @@ Lessons Learned: Tokens must be invalidated after deletion or restore.
 How to Avoid:
 	• Don’t restore old secrets blindly.
 	• Rotate and re-issue credentials post-restore.
+```
