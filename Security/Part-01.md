@@ -1,3 +1,4 @@
+```
 📘 Scenario #201: Unauthorized Access to Secrets Due to Incorrect RBAC Permissions
 Category: Security
 Environment: K8s v1.22, GKE
@@ -422,3 +423,4 @@ Lessons Learned: RBAC should be configured according to the principle of least p
 How to Avoid:
 	• Regularly review and audit RBAC configurations to ensure they align with the principle of least privilege.
 	• Implement strict role definitions and limit access to only the resources necessary for each user.
+```
