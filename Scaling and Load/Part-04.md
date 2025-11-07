@@ -1,3 +1,4 @@
+```
 📘 Scenario #475: Cluster Autoscaler Not Triggering Under High Load
 Category: Scaling & Load
 Environment: Kubernetes v1.22, Google Cloud
@@ -473,3 +474,4 @@ Lessons Learned: Load balancer configurations should be dynamic to accommodate c
 How to Avoid:
 	• Use dynamic load balancing configurations that automatically update with pod scaling.
 	• Regularly test load balancer configurations during scaling operations.
+```
