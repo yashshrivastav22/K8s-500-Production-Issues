@@ -1,3 +1,4 @@
+```
 📘 Scenario #1: Zombie Pods Causing NodeDrain to Hang
 Category: Cluster Management
 Environment: K8s v1.23, On-prem bare metal, Systemd cgroups
@@ -462,3 +463,4 @@ Lessons Learned: PV lifecycle must be actively monitored.
 How to Avoid:
 	• Add cleanup logic in storage lifecycle.
 	• Implement PV alerts based on state.
+```
