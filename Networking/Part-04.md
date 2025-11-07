@@ -1,3 +1,4 @@
+```
 📘 Scenario #176: Pod DNS Resolution Failure Due to CoreDNS Configuration Issue
 Category: Networking
 Environment: K8s v1.18, On-premise
@@ -423,3 +424,4 @@ Lessons Learned: Securing DNS caching is critical to prevent cache poisoning att
 How to Avoid:
 	• Use DNSSEC or other DNS security mechanisms to validate responses.
 	• Regularly monitor and audit CoreDNS logs for anomalies.
+```
