@@ -1,3 +1,4 @@
+```
 📘 Scenario #251: Insufficient RBAC Permissions for Cluster Admin
 Category: Security
 Environment: K8s v1.22, GKE
@@ -450,3 +451,4 @@ Lessons Learned: Accidental leaks happen—monitor and respond quickly.
 How to Avoid:
 	• Never store secrets in source code.
 	• Use automated secret scanning (e.g., GitHub Advanced Security, TruffleHog).
+```
