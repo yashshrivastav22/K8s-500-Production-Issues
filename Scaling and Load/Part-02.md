@@ -1,3 +1,4 @@
+```
 📘 Scenario #426: Downscale Too Aggressive During Traffic Dips
 Category: Scaling & Load
 Environment: Kubernetes v1.22, GCP
@@ -414,3 +415,4 @@ Lessons Learned: Autoscaling should account for long-term trends and ignore brie
 How to Avoid:
 	• Use cooldown periods or smoothing algorithms to prevent scaling from reacting to short-lived fluctuations.
 	• Tune autoscaling policies based on long-term traffic patterns.
+```
