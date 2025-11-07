@@ -1,3 +1,4 @@
+```
 📘 Scenario #26: Taints and Tolerations Mismatch Prevented Workload Scheduling
 Category: Cluster Management
 Environment: K8s v1.22, managed AKS
@@ -438,3 +439,4 @@ Lessons Learned: Image pull secrets must be configured properly for private regi
 How to Avoid:
 	• Always verify image pull secrets for private registries.
 	• Use Kubernetes secrets management tools for image pull credentials.
+```
