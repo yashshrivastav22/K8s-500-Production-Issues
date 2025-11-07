@@ -1,3 +1,4 @@
+```
 📘 Scenario #226: Insecure Ingress Controller Exposed to the Internet
 Category: Security
 Environment: K8s v1.22, Google Cloud
@@ -423,3 +424,4 @@ Lessons Learned: Regularly update the container runtime and other components to 
 How to Avoid:
 	• Keep the container runtime up to date with security patches.
 	• Use security features like seccomp, AppArmor, or SELinux to minimize container privileges and limit potential attack vectors.
+```
