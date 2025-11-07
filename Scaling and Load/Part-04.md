@@ -1,3 +1,20 @@
+📘 Scenario #475: Cluster Autoscaler Not Triggering Under High Load
+Category: Scaling & Load
+Environment: Kubernetes v1.22, Google Cloud
+Summary: The Cluster Autoscaler failed to trigger under high load due to misconfiguration in resource requests.
+What Happened: Despite a high load on the cluster, the Cluster Autoscaler did not trigger additional nodes due to misconfigured resource requests for pods.
+Diagnosis Steps:
+	• Reviewed autoscaler logs and resource requests, and discovered that pods were requesting more resources than available on the nodes.
+	• Resource requests exceeded available node capacity, but the autoscaler did not respond appropriately.
+Root Cause: Misconfigured resource requests for pods, leading to poor autoscaler behavior.
+Fix/Workaround:
+	• Adjusted resource requests and limits to match node capacity.
+	• Tuned the Cluster Autoscaler to scale more aggressively during high load situations.
+Lessons Learned: Proper resource requests are critical for effective autoscaling.
+How to Avoid:
+	• Continuously monitor and adjust resource requests based on actual usage patterns.
+	• Use autoscaling metrics that consider both resource usage and load.
+
 📘 Scenario #476: Autoscaling Slow Due to Cloud Provider API Delay
 Category: Scaling & Load
 Environment: Kubernetes v1.25, Azure AKS
